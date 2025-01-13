@@ -13,7 +13,7 @@ Eg.
 > C:\Users\YOURUSERNAME\Desktop\response.json
 
 ## Changing adjustable power output:
-To change the voltage, simply then add the required voltage script to the sequence as anotherr "External Script" line. This voltage can be 3, 5, 7, 9, or 12.
+To change the voltage, simply then add the required voltage script to the sequence as anotherr "External Script" line. This voltage can be 3, 5, 8, 9, or 12.
 
 To adjust change "XXXXXXXX" to the number of volts you want:
 > http://localhost:32000/Driver/PPBAdvance/Power/Variable/XXXXXXXX?DriverUniqueKey=%uniqueKey%
