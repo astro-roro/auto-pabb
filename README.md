@@ -20,3 +20,7 @@ To adjust change "XXXXXXXX" to the number of volts you want:
 
 Eg. for 9v:
 > http://localhost:32000/Driver/PPBAdvance/Power/Variable/9?DriverUniqueKey=%uniqueKey%
+
+
+### Things to improve at some point
+Currently it takes the first device and assumes it's the one you want. Need to write some tests to make sure it's the PPBA and also maybe to check for multiple boxes.
